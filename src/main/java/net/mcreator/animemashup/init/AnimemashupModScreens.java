@@ -11,14 +11,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
-import net.mcreator.animemashup.client.gui.MenuOpenScreen;
+import net.mcreator.animemashup.client.gui.MenunaruScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AnimemashupModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(AnimemashupModMenus.MENU_OPEN.get(), MenuOpenScreen::new);
+			MenuScreens.register(AnimemashupModMenus.MENUNARU.get(), MenunaruScreen::new);
 		});
 	}
 }

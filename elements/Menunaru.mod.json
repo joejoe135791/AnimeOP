@@ -3,12 +3,12 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 184,
-    "height": 192,
+    "width": 183,
+    "height": 220,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": false,
+    "doesPauseGame": true,
     "components": [],
     "gridSettings": {
       "sx": 19,

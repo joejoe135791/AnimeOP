@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class MenuOpenMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class MenunaruMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -28,8 +28,8 @@ public class MenuOpenMenu extends AbstractContainerMenu implements Supplier<Map<
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 
-	public MenuOpenMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(AnimemashupModMenus.MENU_OPEN.get(), id);
+	public MenunaruMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(AnimemashupModMenus.MENUNARU.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(0);

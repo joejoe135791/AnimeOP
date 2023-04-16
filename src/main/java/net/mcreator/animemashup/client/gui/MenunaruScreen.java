@@ -8,31 +8,36 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.animemashup.world.inventory.MenuOpenMenu;
+import net.mcreator.animemashup.world.inventory.MenunaruMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class MenuOpenScreen extends AbstractContainerScreen<MenuOpenMenu> {
-	private final static HashMap<String, Object> guistate = MenuOpenMenu.guistate;
+public class MenunaruScreen extends AbstractContainerScreen<MenunaruMenu> {
+	private final static HashMap<String, Object> guistate = MenunaruMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public MenuOpenScreen(MenuOpenMenu container, Inventory inventory, Component text) {
+	public MenunaruScreen(MenunaruMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 184;
-		this.imageHeight = 192;
+		this.imageWidth = 183;
+		this.imageHeight = 220;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("animemashup:textures/screens/menu_open.png");
+	@Override
+	public boolean isPauseScreen() {
+		return true;
+	}
+
+	private static final ResourceLocation texture = new ResourceLocation("animemashup:textures/screens/menunaru.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

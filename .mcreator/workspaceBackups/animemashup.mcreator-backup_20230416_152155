@@ -1,15 +1,15 @@
 {
   "mod_elements": [
     {
-      "name": "Menunaru",
+      "name": "MenuOpen",
       "type": "gui",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "menunaru",
+      "registry_name": "menu_open",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/animemashup/world/inventory/MenunaruMenu.java",
-          "src/main/java/net/mcreator/animemashup/client/gui/MenunaruScreen.java"
+          "src/main/java/net/mcreator/animemashup/world/inventory/MenuOpenMenu.java",
+          "src/main/java/net/mcreator/animemashup/client/gui/MenuOpenScreen.java"
         ]
       }
     }

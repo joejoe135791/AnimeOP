@@ -11,10 +11,10 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
-import net.mcreator.animemashup.world.inventory.MenuOpenMenu;
+import net.mcreator.animemashup.world.inventory.MenunaruMenu;
 import net.mcreator.animemashup.AnimemashupMod;
 
 public class AnimemashupModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, AnimemashupMod.MODID);
-	public static final RegistryObject<MenuType<MenuOpenMenu>> MENU_OPEN = REGISTRY.register("menu_open", () -> IForgeMenuType.create(MenuOpenMenu::new));
+	public static final RegistryObject<MenuType<MenunaruMenu>> MENUNARU = REGISTRY.register("menunaru", () -> IForgeMenuType.create(MenunaruMenu::new));
 }
