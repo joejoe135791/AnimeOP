@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 183,
+    "height": 220,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_test",
+          "text": {
+            "fixedValue": "Test"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 24
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "railguncoin32x.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 14
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 19,
+      "sy": 18,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": false
+    }
+  }
+}

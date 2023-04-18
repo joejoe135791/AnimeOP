@@ -3,7 +3,6 @@
     {
       "name": "Menunaru",
       "type": "gui",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "menunaru",
@@ -17,7 +16,6 @@
     {
       "name": "Dupe",
       "type": "gui",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dupe",
@@ -32,9 +30,7 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "gui.animemashup.dupe.label_test": "Test"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

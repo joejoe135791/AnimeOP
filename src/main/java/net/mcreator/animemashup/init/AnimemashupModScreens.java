@@ -12,12 +12,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.animemashup.client.gui.MenunaruScreen;
+import net.mcreator.animemashup.client.gui.DupeScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AnimemashupModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(AnimemashupModMenus.DUPE.get(), DupeScreen::new);
 			MenuScreens.register(AnimemashupModMenus.MENUNARU.get(), MenunaruScreen::new);
 		});
 	}
