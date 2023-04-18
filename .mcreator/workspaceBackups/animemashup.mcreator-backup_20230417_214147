@@ -1,5 +1,19 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Menunaru",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menunaru",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/world/inventory/MenunaruMenu.java",
+          "src/main/java/net/mcreator/animemashup/client/gui/MenunaruScreen.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
