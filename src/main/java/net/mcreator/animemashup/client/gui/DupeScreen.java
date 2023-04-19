@@ -76,7 +76,7 @@ public class DupeScreen extends AbstractContainerScreen<DupeMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.animemashup.dupe.label_test"), 39, 14, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.animemashup.dupe.label_test"), 39, 27, -12829636);
 	}
 
 	@Override
