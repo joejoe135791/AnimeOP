@@ -29,7 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.animemashup.init.AnimemashupModTabs;
 import net.mcreator.animemashup.init.AnimemashupModMenus;
+import net.mcreator.animemashup.init.AnimemashupModItems;
+import net.mcreator.animemashup.init.AnimemashupModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,8 +50,11 @@ public class AnimemashupMod {
 
 	public AnimemashupMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AnimemashupModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AnimemashupModItems.REGISTRY.register(bus);
+		AnimemashupModEntities.REGISTRY.register(bus);
 
 		AnimemashupModMenus.REGISTRY.register(bus);
 
