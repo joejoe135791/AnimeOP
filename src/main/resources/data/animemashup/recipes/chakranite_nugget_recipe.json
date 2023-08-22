@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "animemashup:chakranite_ingot"
+    }
+  ],
+  "result": {
+    "item": "animemashup:chakranite_nugget",
+    "count": 9
+  }
+}

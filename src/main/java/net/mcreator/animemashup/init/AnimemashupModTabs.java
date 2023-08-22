@@ -14,7 +14,7 @@ public class AnimemashupModTabs {
 		TAB_NARUTO = new CreativeModeTab("tabnaruto") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(AnimemashupModItems.KUNAI.get());
+				return new ItemStack(AnimemashupModItems.UNOBTAINABLEHEADBAND.get());
 			}
 
 			@Override

@@ -9,19 +9,19 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.animemashup.entity.KunaiEntity;
-import net.mcreator.animemashup.client.model.ModelKunai_Test_1_Converted;
+import net.mcreator.animemashup.client.model.ModelKunai;
 
 import com.mojang.math.Vector3f;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class KunaiRenderer extends EntityRenderer<KunaiEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("animemashup:textures/entities/profile_joejoevt.png");
-	private final ModelKunai_Test_1_Converted model;
+	private static final ResourceLocation texture = new ResourceLocation("animemashup:textures/entities/kunai_texture.png");
+	private final ModelKunai model;
 
 	public KunaiRenderer(EntityRendererProvider.Context context) {
 		super(context);
-		model = new ModelKunai_Test_1_Converted(context.bakeLayer(ModelKunai_Test_1_Converted.LAYER_LOCATION));
+		model = new ModelKunai(context.bakeLayer(ModelKunai.LAYER_LOCATION));
 	}
 
 	@Override
