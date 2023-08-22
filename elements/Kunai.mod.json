@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 2,
+    "texture": "kunai_texture",
+    "customModelName": "kunai",
+    "name": "Kunai",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Naruto"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Kunai"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "onRangedItemUsed": {
+      "name": "KunaiRangedItemUsed"
+    },
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Kunai"
+    },
+    "bulletModel": "ModelKunai",
+    "customBulletModelTexture": "kunai_texture.png",
+    "onBulletHitsBlock": {
+      "name": "KunaiProjectileHitsBlock"
+    }
+  }
+}

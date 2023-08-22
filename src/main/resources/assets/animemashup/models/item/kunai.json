@@ -1,0 +1,9 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "animemashup:models/item/kunai.obj",
+  "textures": {
+    "particle": "animemashup:items/kunai_texture"
+  }
+}

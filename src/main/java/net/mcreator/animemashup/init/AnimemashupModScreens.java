@@ -19,8 +19,8 @@ public class AnimemashupModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(AnimemashupModMenus.DUPE.get(), DupeScreen::new);
 			MenuScreens.register(AnimemashupModMenus.MENUNARU.get(), MenunaruScreen::new);
+			MenuScreens.register(AnimemashupModMenus.DUPE.get(), DupeScreen::new);
 		});
 	}
 }

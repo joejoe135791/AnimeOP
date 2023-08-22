@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "14": "kusanagiscabbard_texturered"
+      },
+      "name": "default"
+    }
+  }
+}

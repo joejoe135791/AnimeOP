@@ -1,0 +1,7 @@
+{
+  "parent": "animemashup:custom/kubikiribocho",
+  "textures": {
+    "0": "animemashup:blocks/kubikiribocho_texture",
+    "particle": "animemashup:items/kubikiribocho_texture"
+  }
+}
