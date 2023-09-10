@@ -467,20 +467,8 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       },
@@ -511,6 +499,22 @@
         ]
       },
       "path": "~/animes/naruto/chakra natures/jutsu/fire/fireball"
+    },
+    {
+      "name": "Headband",
+      "type": "curiosbauble",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headband",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/HeadbandItem.java",
+          "src/main/resources/assets/animemashup/models/item/headband.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/HeadbandRenderer.java"
+        ]
+      },
+      "path": "~/animes/naruto/headband"
     }
   ],
   "variable_elements": [],
@@ -532,6 +536,7 @@
       "itemGroup.tabnaruto": "Naruto",
       "item.animemashup.chakranite_ingot": "Chakranite Ingot",
       "key.animemashup.launch_fireball": "Launch Fireball",
+      "item.animemashup.headband": "Headband",
       "item.animemashup.purple_kusanagi": "Purple Kusanagi",
       "item.animemashup.kunai": "Kunai",
       "item.animemashup.red_kusanagi": "Red Kusanagi"

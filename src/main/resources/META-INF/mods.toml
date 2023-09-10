@@ -19,4 +19,10 @@ authors="joejoeVT, MCreator"
 
 
 
+[[dependencies.animemashup]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
