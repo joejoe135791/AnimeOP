@@ -22,6 +22,7 @@ import net.mcreator.animemashup.item.PurpleKusanagiScabbardItem;
 import net.mcreator.animemashup.item.PurpleKusanagiItem;
 import net.mcreator.animemashup.item.KunaiItem;
 import net.mcreator.animemashup.item.KubikiribochoItem;
+import net.mcreator.animemashup.item.HeadbandItem;
 import net.mcreator.animemashup.item.ChakraniteNuggetItem;
 import net.mcreator.animemashup.item.ChakraniteItem;
 import net.mcreator.animemashup.item.ChakraniteIngotItem;
@@ -46,6 +47,7 @@ public class AnimemashupModItems {
 	public static final RegistryObject<Item> RED_KUSANAGI_SCABBARD = REGISTRY.register("red_kusanagi_scabbard", () -> new RedKusanagiScabbardItem());
 	public static final RegistryObject<Item> KUBIKIRIBOCHO = REGISTRY.register("kubikiribocho", () -> new KubikiribochoItem());
 	public static final RegistryObject<Item> UNOBTAINABLEHEADBAND = REGISTRY.register("unobtainableheadband", () -> new UnobtainableheadbandItem());
+	public static final RegistryObject<Item> HEADBAND = REGISTRY.register("headband", () -> new HeadbandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -2,6 +2,7 @@ Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 Arguments: '--in-jar, C:\Users\jandi\Downloads\projectAnimeOP\build\libs\modid-1.0.jar, --out-jar, C:\Users\jandi\Downloads\projectAnimeOP\build\reobfJar\output.jar, --srg-in, C:\Users\jandi\Downloads\projectAnimeOP\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\jandi\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
+ - C:\Users\jandi\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\top\theillusivec4\curios\curios-forge\1.19.2-5.1.1.0_mapped_official_1.19.2\curios-forge-1.19.2-5.1.1.0_mapped_official_1.19.2-api.jar
  - C:\Users\jandi\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar
  - C:\Users\jandi\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
  - C:\Users\jandi\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.2.0\3e6e8b7b5e1dbc6ee01a20f74675f223b64c7847\fmlloader-1.19.2-43.2.0.jar
@@ -126,7 +127,7 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 6859 classes, 30693 fields, 57911 methods
 Remapping final jar
-Remapping jar...  1%
+Remapping jar...  0%
 Remapping jar... 10%
 Remapping jar... 20%
 Remapping jar... 30%

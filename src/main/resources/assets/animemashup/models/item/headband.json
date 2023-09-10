@@ -1,0 +1,7 @@
+{
+  "parent": "animemashup:custom/blue_headband_leaf",
+  "textures": {
+    "0": "animemashup:blocks/blueleafheadband_texture",
+    "particle": "animemashup:items/blueleafheadband_texture"
+  }
+}
