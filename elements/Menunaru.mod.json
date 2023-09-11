@@ -9,7 +9,28 @@
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": true,
-    "components": [],
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "menunarudone.png",
+          "use1Xscale": false,
+          "x": 122,
+          "y": 9
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select_anime",
+          "text": "select anime",
+          "width": 87,
+          "height": 20,
+          "x": 171,
+          "y": 196
+        }
+      }
+    ],
     "gridSettings": {
       "sx": 19,
       "sy": 18,

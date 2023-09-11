@@ -510,8 +510,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/animemashup/item/HeadbandItem.java",
-          "src/main/resources/assets/animemashup/models/item/headband.json",
-          "src/main/java/net/mcreator/animemashup/client/renderer/HeadbandRenderer.java"
+          "src/main/resources/assets/animemashup/models/item/headband.json"
         ]
       },
       "path": "~/animes/naruto/headband"
@@ -645,6 +644,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "NPCs",
+                "children": []
               }
             ]
           },
@@ -669,6 +672,10 @@
       {
         "name": "shared items",
         "children": []
+      },
+      {
+        "name": "config",
+        "children": []
       }
     ]
   },
@@ -676,7 +683,7 @@
     "modid": "animemashup",
     "modName": "animemashup",
     "version": "1.0.0",
-    "author": "joejoeVT, MCreator",
+    "author": "joejoeVT, Naruko",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -684,7 +691,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.animemashup",

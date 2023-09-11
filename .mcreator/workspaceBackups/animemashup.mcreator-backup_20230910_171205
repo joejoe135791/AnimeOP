@@ -515,6 +515,22 @@
         ]
       },
       "path": "~/animes/naruto/headband"
+    },
+    {
+      "name": "PurpleKusanagiBauble",
+      "type": "curiosbauble",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kusanagi_bauble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/purple_kusanagi_bauble.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/PurpleKusanagiBaubleRenderer.java",
+          "src/main/java/net/mcreator/animemashup/item/PurpleKusanagiBaubleItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/WeaponBauble"
     }
   ],
   "variable_elements": [],
@@ -524,6 +540,7 @@
       "block.animemashup.chakranite_ore": "Chakranite Ore",
       "item.animemashup.black_kusanagi_scabbard": "Black Kusanagi Scabbard",
       "item.animemashup.chakranite_nugget": "Chakranite Nugget",
+      "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
       "item.animemashup.kubikiribocho": "Kubikiribocho",
       "item.animemashup.purple_kusanagi_scabbard": "Purple Kusanagi Scabbard",
       "item.animemashup.red_kusanagi_scabbard": "Red Kusanagi Scabbard",
@@ -645,6 +662,14 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "NPCs",
+                "children": []
+              },
+              {
+                "name": "WeaponBauble",
+                "children": []
               }
             ]
           },
@@ -668,7 +693,12 @@
       },
       {
         "name": "shared items",
-        "children": []
+        "children": [
+          {
+            "name": "Developer Items",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -676,7 +706,7 @@
     "modid": "animemashup",
     "modName": "animemashup",
     "version": "1.0.0",
-    "author": "joejoeVT, MCreator",
+    "author": "joejoeVT, Naruko",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -685,7 +715,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "curios_api"
+      "curios_api",
+      "geckolib"
     ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

@@ -2,6 +2,7 @@
   "replace": "false",
   "values": [
     "minecraft:air",
-    "animemashup:headband"
+    "animemashup:headband",
+    "animemashup:purple_kusanagi_bauble"
   ]
 }

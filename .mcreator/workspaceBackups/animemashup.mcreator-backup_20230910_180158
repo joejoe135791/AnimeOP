@@ -499,6 +499,38 @@
         ]
       },
       "path": "~/animes/naruto/chakra natures/jutsu/fire/fireball"
+    },
+    {
+      "name": "Headband",
+      "type": "curiosbauble",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headband",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/HeadbandItem.java",
+          "src/main/resources/assets/animemashup/models/item/headband.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/HeadbandRenderer.java"
+        ]
+      },
+      "path": "~/animes/naruto/headband"
+    },
+    {
+      "name": "PurpleKusanagiBauble",
+      "type": "curiosbauble",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kusanagi_bauble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/purple_kusanagi_bauble.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/PurpleKusanagiBaubleRenderer.java",
+          "src/main/java/net/mcreator/animemashup/item/PurpleKusanagiBaubleItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/WeaponBauble"
     }
   ],
   "variable_elements": [],
@@ -508,11 +540,13 @@
       "block.animemashup.chakranite_ore": "Chakranite Ore",
       "item.animemashup.black_kusanagi_scabbard": "Black Kusanagi Scabbard",
       "item.animemashup.chakranite_nugget": "Chakranite Nugget",
+      "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
       "item.animemashup.kubikiribocho": "Kubikiribocho",
       "item.animemashup.purple_kusanagi_scabbard": "Purple Kusanagi Scabbard",
       "item.animemashup.red_kusanagi_scabbard": "Red Kusanagi Scabbard",
       "item.animemashup.black_kusanagi": "Black Kusanagi",
       "gui.animemashup.dupe.label_test": "Test",
+      "gui.animemashup.menunaru.button_select_anime": "select anime",
       "item.animemashup.white_kusanagi_scabbard": "White Kusanagi Scabbard",
       "item.animemashup.raw_chakranite": "Raw Chakranite",
       "item.animemashup.white_kusanagi": "White Kusanagi",
@@ -520,6 +554,7 @@
       "itemGroup.tabnaruto": "Naruto",
       "item.animemashup.chakranite_ingot": "Chakranite Ingot",
       "key.animemashup.launch_fireball": "Launch Fireball",
+      "item.animemashup.headband": "Headband",
       "item.animemashup.purple_kusanagi": "Purple Kusanagi",
       "item.animemashup.kunai": "Kunai",
       "item.animemashup.red_kusanagi": "Red Kusanagi"
@@ -628,6 +663,14 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "NPCs",
+                "children": []
+              },
+              {
+                "name": "WeaponBauble",
+                "children": []
               }
             ]
           },
@@ -651,15 +694,33 @@
       },
       {
         "name": "shared items",
-        "children": []
+        "children": [
+          {
+            "name": "Developer Items",
+            "children": [
+              {
+                "name": "Naruko",
+                "children": []
+              },
+              {
+                "name": "Joejoe",
+                "children": []
+              },
+              {
+                "name": "Development Tools",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "animemashup",
     "modName": "animemashup",
-    "version": "1.0.0",
-    "author": "joejoeVT, MCreator",
+    "version": "0.0.1",
+    "author": "joejoeVT, Naruko",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -667,7 +728,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.animemashup",

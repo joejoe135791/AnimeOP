@@ -6,6 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.animemashup.world.inventory.MenunaruMenu;
@@ -20,6 +21,7 @@ public class MenunaruScreen extends AbstractContainerScreen<MenunaruMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_select_anime;
 
 	public MenunaruScreen(MenunaruMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -53,6 +55,10 @@ public class MenunaruScreen extends AbstractContainerScreen<MenunaruMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("animemashup:textures/screens/menunarudone.png"));
+		this.blit(ms, this.leftPos + 0, this.topPos + -1, 0, 0, 183, 220, 183, 220);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -84,5 +90,9 @@ public class MenunaruScreen extends AbstractContainerScreen<MenunaruMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		button_select_anime = new Button(this.leftPos + 49, this.topPos + 186, 87, 20, Component.translatable("gui.animemashup.menunaru.button_select_anime"), e -> {
+		});
+		guistate.put("button:button_select_anime", button_select_anime);
+		this.addRenderableWidget(button_select_anime);
 	}
 }

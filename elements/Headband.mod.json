@@ -38,7 +38,7 @@
     "friendlyPigs": false,
     "enderMask": false,
     "rotateModel": false,
-    "translateModel": false,
+    "translateModel": true,
     "nutritionalValue": 69,
     "saturation": 69.0,
     "eatResultItem": {
