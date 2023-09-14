@@ -510,10 +510,70 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/animemashup/item/HeadbandItem.java",
-          "src/main/resources/assets/animemashup/models/item/headband.json"
+          "src/main/resources/assets/animemashup/models/item/headband.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/HeadbandRenderer.java"
         ]
       },
       "path": "~/animes/naruto/headband"
+    },
+    {
+      "name": "PurpleKusanagiBauble",
+      "type": "curiosbauble",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kusanagi_bauble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/purple_kusanagi_bauble.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/PurpleKusanagiBaubleRenderer.java",
+          "src/main/java/net/mcreator/animemashup/item/PurpleKusanagiBaubleItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/WeaponBauble"
+    },
+    {
+      "name": "Ears",
+      "type": "curiosbauble",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/EarsItem.java",
+          "src/main/resources/assets/animemashup/models/item/ears.json"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Joejoe"
+    },
+    {
+      "name": "DevItems",
+      "type": "tab",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shared items/Developer Items"
+    },
+    {
+      "name": "Michiru",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "michiru",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/michiru_helmet.json",
+          "src/main/resources/assets/animemashup/models/item/michiru_chestplate.json",
+          "src/main/java/net/mcreator/animemashup/item/MichiruItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items"
     }
   ],
   "variable_elements": [],
@@ -521,24 +581,30 @@
   "language_map": {
     "en_us": {
       "block.animemashup.chakranite_ore": "Chakranite Ore",
-      "item.animemashup.black_kusanagi_scabbard": "Black Kusanagi Scabbard",
+      "item.animemashup.ears": "Ears",
+      "item.animemashup.michiru_chestplate": "Michiru\u0027s Sweatjacket",
       "item.animemashup.chakranite_nugget": "Chakranite Nugget",
-      "item.animemashup.kubikiribocho": "Kubikiribocho",
+      "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
       "item.animemashup.purple_kusanagi_scabbard": "Purple Kusanagi Scabbard",
       "item.animemashup.red_kusanagi_scabbard": "Red Kusanagi Scabbard",
       "item.animemashup.black_kusanagi": "Black Kusanagi",
-      "gui.animemashup.dupe.label_test": "Test",
+      "gui.animemashup.menunaru.button_select_anime": "select anime",
       "item.animemashup.white_kusanagi_scabbard": "White Kusanagi Scabbard",
-      "item.animemashup.raw_chakranite": "Raw Chakranite",
       "item.animemashup.white_kusanagi": "White Kusanagi",
       "item.animemashup.unobtainableheadband": "Unobtainableheadband",
-      "itemGroup.tabnaruto": "Naruto",
-      "item.animemashup.chakranite_ingot": "Chakranite Ingot",
-      "key.animemashup.launch_fireball": "Launch Fireball",
-      "item.animemashup.headband": "Headband",
+      "item.animemashup.michiru_helmet": "Michiru\u0027s hood",
       "item.animemashup.purple_kusanagi": "Purple Kusanagi",
       "item.animemashup.kunai": "Kunai",
-      "item.animemashup.red_kusanagi": "Red Kusanagi"
+      "item.animemashup.red_kusanagi": "Red Kusanagi",
+      "item.animemashup.black_kusanagi_scabbard": "Black Kusanagi Scabbard",
+      "item.animemashup.kubikiribocho": "Kubikiribocho",
+      "gui.animemashup.dupe.label_test": "Test",
+      "item.animemashup.raw_chakranite": "Raw Chakranite",
+      "itemGroup.tabnaruto": "Naruto",
+      "item.animemashup.chakranite_ingot": "Chakranite Ingot",
+      "itemGroup.tabdev_items": "Dev Items",
+      "key.animemashup.launch_fireball": "Launch Fireball",
+      "item.animemashup.headband": "Headband"
     }
   },
   "foldersRoot": {
@@ -648,6 +714,14 @@
               {
                 "name": "NPCs",
                 "children": []
+              },
+              {
+                "name": "WeaponBauble",
+                "children": []
+              },
+              {
+                "name": "Structures",
+                "children": []
               }
             ]
           },
@@ -671,18 +745,32 @@
       },
       {
         "name": "shared items",
-        "children": []
-      },
-      {
-        "name": "config",
-        "children": []
+        "children": [
+          {
+            "name": "Developer Items",
+            "children": [
+              {
+                "name": "Naruko",
+                "children": []
+              },
+              {
+                "name": "Joejoe",
+                "children": []
+              },
+              {
+                "name": "Development Tools",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "animemashup",
     "modName": "animemashup",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "author": "joejoeVT, Naruko",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

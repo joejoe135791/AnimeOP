@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.animemashup.client.model.Modelblueleafheadband;
+import net.mcreator.animemashup.client.model.ModelSweatJacket;
 import net.mcreator.animemashup.client.model.ModelPurple_Kusanagi_Converted;
 import net.mcreator.animemashup.client.model.ModelKunai_Test_1_Converted;
 import net.mcreator.animemashup.client.model.ModelKunai;
@@ -22,5 +23,6 @@ public class AnimemashupModModels {
 		event.registerLayerDefinition(ModelPurple_Kusanagi_Converted.LAYER_LOCATION, ModelPurple_Kusanagi_Converted::createBodyLayer);
 		event.registerLayerDefinition(ModelKunai_Test_1_Converted.LAYER_LOCATION, ModelKunai_Test_1_Converted::createBodyLayer);
 		event.registerLayerDefinition(ModelKunai.LAYER_LOCATION, ModelKunai::createBodyLayer);
+		event.registerLayerDefinition(ModelSweatJacket.LAYER_LOCATION, ModelSweatJacket::createBodyLayer);
 	}
 }

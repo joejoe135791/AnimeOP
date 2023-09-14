@@ -531,6 +531,33 @@
         ]
       },
       "path": "~/animes/naruto/WeaponBauble"
+    },
+    {
+      "name": "Ears",
+      "type": "curiosbauble",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/EarsItem.java",
+          "src/main/resources/assets/animemashup/models/item/ears.json"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Joejoe"
+    },
+    {
+      "name": "DevItems",
+      "type": "tab",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shared items/Developer Items"
     }
   ],
   "variable_elements": [],
@@ -539,6 +566,7 @@
     "en_us": {
       "block.animemashup.chakranite_ore": "Chakranite Ore",
       "item.animemashup.black_kusanagi_scabbard": "Black Kusanagi Scabbard",
+      "item.animemashup.ears": "Ears",
       "item.animemashup.chakranite_nugget": "Chakranite Nugget",
       "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
       "item.animemashup.kubikiribocho": "Kubikiribocho",
@@ -553,6 +581,7 @@
       "item.animemashup.unobtainableheadband": "Unobtainableheadband",
       "itemGroup.tabnaruto": "Naruto",
       "item.animemashup.chakranite_ingot": "Chakranite Ingot",
+      "itemGroup.tabdev_items": "Dev Items",
       "key.animemashup.launch_fireball": "Launch Fireball",
       "item.animemashup.headband": "Headband",
       "item.animemashup.purple_kusanagi": "Purple Kusanagi",
