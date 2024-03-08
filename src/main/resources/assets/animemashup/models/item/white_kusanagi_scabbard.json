@@ -1,7 +1,0 @@
-{
-  "parent": "animemashup:custom/white_kusanagi_scabbard",
-  "textures": {
-    "14": "animemashup:blocks/kusanagiscabbard_texturewhite",
-    "particle": "animemashup:items/kusanagiscabbard_texturewhite"
-  }
-}

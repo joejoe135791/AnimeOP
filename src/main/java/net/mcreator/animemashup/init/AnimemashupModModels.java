@@ -13,7 +13,6 @@ import net.mcreator.animemashup.client.model.Modelblueleafheadband;
 import net.mcreator.animemashup.client.model.ModelSweatJacket;
 import net.mcreator.animemashup.client.model.ModelPurple_Kusanagi_Converted;
 import net.mcreator.animemashup.client.model.ModelKunai_Test_1_Converted;
-import net.mcreator.animemashup.client.model.ModelKunai;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class AnimemashupModModels {
@@ -22,7 +21,6 @@ public class AnimemashupModModels {
 		event.registerLayerDefinition(Modelblueleafheadband.LAYER_LOCATION, Modelblueleafheadband::createBodyLayer);
 		event.registerLayerDefinition(ModelPurple_Kusanagi_Converted.LAYER_LOCATION, ModelPurple_Kusanagi_Converted::createBodyLayer);
 		event.registerLayerDefinition(ModelKunai_Test_1_Converted.LAYER_LOCATION, ModelKunai_Test_1_Converted::createBodyLayer);
-		event.registerLayerDefinition(ModelKunai.LAYER_LOCATION, ModelKunai::createBodyLayer);
 		event.registerLayerDefinition(ModelSweatJacket.LAYER_LOCATION, ModelSweatJacket::createBodyLayer);
 	}
 }

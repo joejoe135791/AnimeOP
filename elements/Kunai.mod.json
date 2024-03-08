@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 2,
+    "renderType": 1,
     "texture": "kunai_texture",
-    "customModelName": "kunai",
+    "customModelName": "kunai:default",
     "name": "Kunai",
     "specialInfo": [],
     "creativeTab": {
@@ -17,25 +17,25 @@
     "shootConstantly": false,
     "usageCount": 0,
     "actionSound": {
-      "value": ""
+      "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
     "animation": "spear",
     "enableMeleeDamage": true,
-    "damageVsEntity": 3.0,
+    "damageVsEntity": 2.6999999999999997,
     "onRangedItemUsed": {
       "name": "KunaiRangedItemUsed"
     },
-    "bulletPower": 1.2000000000000002,
-    "bulletDamage": 3.0,
-    "bulletKnockback": 1,
-    "bulletParticles": false,
+    "bulletPower": 1.4,
+    "bulletDamage": 4.5,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:Kunai"
     },
-    "bulletModel": "ModelKunai",
-    "customBulletModelTexture": "kunai_texture.png",
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
     "onBulletHitsBlock": {
       "name": "KunaiProjectileHitsBlock"
     }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    " 3",
+    "45"
+  ],
+  "key": {
+    "1": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "3": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "4": {
+      "item": "animemashup:wrappings"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "animemashup:uchihakusanagi",
+    "count": 1
+  }
+}

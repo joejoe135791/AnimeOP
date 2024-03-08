@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "kubikiribocho_texture",
+    "texture": "kubikiribohco_texture",
     "customModelName": "kubikiribocho:default",
     "name": "Kubikiribocho",
     "specialInfo": [],

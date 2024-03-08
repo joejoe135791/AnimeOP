@@ -1,0 +1,7 @@
+{
+  "parent": "animemashup:custom/uchiha_kusanagi",
+  "textures": {
+    "0": "animemashup:blocks/uchihakusanagi_texture",
+    "particle": "animemashup:items/uchihakusanagi_texture"
+  }
+}

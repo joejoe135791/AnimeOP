@@ -1,7 +1,0 @@
-{
-  "parent": "animemashup:custom/red_kusanagi",
-  "textures": {
-    "12": "animemashup:blocks/kusanagi_texturered",
-    "particle": "animemashup:items/kusanagi_texturered"
-  }
-}

@@ -30,13 +30,13 @@
         "value": "CUSTOM:ChakraniteIngot"
       },
       {
-        "value": "Items.STRING"
+        "value": "CUSTOM:Wrappings"
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": "Items.STRING"
+        "value": "CUSTOM:Wrappings"
       }
     ],
     "recipeReturnStack": {

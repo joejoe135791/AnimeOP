@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="animemashup"
-version="0.0.1"
+version="0.0.5"
 displayName="animemashup"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="joejoeVT, Naruko"
+authors="joejoeVT,  Harumi"
 
 [[dependencies.animemashup]]
     modId="minecraft"

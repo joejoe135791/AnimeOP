@@ -1,0 +1,82 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "uchihakusanagi_texture",
+		"particle": "uchihakusanagi_texture"
+	},
+	"elements": [
+		{
+			"name": "Hilt",
+			"from": [7.625, -4.5, 7],
+			"to": [8.375, 3.5, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 6.375, 4], "texture": "#0"},
+				"east": {"uv": [5, 0, 6, 4], "texture": "#0"},
+				"south": {"uv": [6, 4, 6.375, 8], "texture": "#0"},
+				"west": {"uv": [5, 4, 6, 8], "texture": "#0"},
+				"up": {"uv": [6.875, 3, 6.5, 2], "texture": "#0"},
+				"down": {"uv": [6.875, 3, 6.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Wrap",
+			"from": [7.875, 2.5, 7.125],
+			"to": [8.125, 4.25, 8.875],
+			"faces": {
+				"north": {"uv": [6.5, 6, 6.625, 6.875], "texture": "#0"},
+				"east": {"uv": [6.5, 0, 7.375, 0.875], "texture": "#0"},
+				"south": {"uv": [7, 2, 7.125, 2.875], "texture": "#0"},
+				"west": {"uv": [6.5, 1, 7.375, 1.875], "texture": "#0"},
+				"up": {"uv": [7.125, 3.875, 7, 3], "texture": "#0"},
+				"down": {"uv": [7.125, 4, 7, 4.875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Blade",
+			"from": [8, 4.15, 7.25],
+			"to": [8, 27, 8.75],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 11.375], "texture": "#0"},
+				"east": {"uv": [2, 0, 2.75, 11.375], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 11.375], "texture": "#0"},
+				"west": {"uv": [3, 0, 3.75, 11.375], "texture": "#0"},
+				"up": {"uv": [0, 0.75, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -4, 4],
+			"translation": [-1, 5.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -4, 4],
+			"translation": [-1, 5.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-10.62, 8.31, -0.99]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-10.62, 8.31, -0.99]
+		},
+		"gui": {
+			"rotation": [-103.52, -41.93, -99.07]
+		}
+	},
+	"groups": [
+		{
+			"name": "Uchiha Kusanagi",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Sword",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1, 2]
+				}
+			]
+		}
+	]
+}
