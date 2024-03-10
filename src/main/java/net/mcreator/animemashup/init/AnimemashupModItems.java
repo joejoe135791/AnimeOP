@@ -16,13 +16,16 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.animemashup.item.WrappingsItem;
 import net.mcreator.animemashup.item.UnobtainableheadbandItem;
 import net.mcreator.animemashup.item.UchihakusanagiItem;
+import net.mcreator.animemashup.item.ShurikenItem;
 import net.mcreator.animemashup.item.PurpleKusanagiBaubleItem;
 import net.mcreator.animemashup.item.MichiruItem;
+import net.mcreator.animemashup.item.MassiveExplosionItem;
 import net.mcreator.animemashup.item.KunaiItem;
 import net.mcreator.animemashup.item.KubikiribochoItem;
 import net.mcreator.animemashup.item.HeadbandItem;
 import net.mcreator.animemashup.item.FirstJoinResetItem;
 import net.mcreator.animemashup.item.EarsItem;
+import net.mcreator.animemashup.item.DeveloperExuhplosiooonItem;
 import net.mcreator.animemashup.item.DefaultNichirinItem;
 import net.mcreator.animemashup.item.DeathrayDEVITEMItem;
 import net.mcreator.animemashup.item.ChakraniteNuggetItem;
@@ -49,6 +52,9 @@ public class AnimemashupModItems {
 	public static final RegistryObject<Item> WRAPPINGS = REGISTRY.register("wrappings", () -> new WrappingsItem());
 	public static final RegistryObject<Item> KUNAI = REGISTRY.register("kunai", () -> new KunaiItem());
 	public static final RegistryObject<Item> FIRST_JOIN_RESET = REGISTRY.register("first_join_reset", () -> new FirstJoinResetItem());
+	public static final RegistryObject<Item> SHURIKEN = REGISTRY.register("shuriken", () -> new ShurikenItem());
+	public static final RegistryObject<Item> MASSIVE_EXPLOSION = REGISTRY.register("massive_explosion", () -> new MassiveExplosionItem());
+	public static final RegistryObject<Item> DEVELOPER_EXUHPLOSIOOON = REGISTRY.register("developer_exuhplosiooon", () -> new DeveloperExuhplosiooonItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

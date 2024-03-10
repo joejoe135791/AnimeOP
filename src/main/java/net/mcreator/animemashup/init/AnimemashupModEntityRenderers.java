@@ -16,5 +16,7 @@ public class AnimemashupModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AnimemashupModEntities.KUNAI.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AnimemashupModEntities.SHURIKEN.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AnimemashupModEntities.DEVELOPER_EXUHPLOSIOOON.get(), ThrownItemRenderer::new);
 	}
 }

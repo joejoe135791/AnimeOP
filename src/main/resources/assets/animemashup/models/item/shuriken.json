@@ -1,0 +1,7 @@
+{
+  "parent": "animemashup:custom/shuriken",
+  "textures": {
+    "0": "animemashup:blocks/shuriken_texture",
+    "particle": "animemashup:items/shuriken_texture"
+  }
+}

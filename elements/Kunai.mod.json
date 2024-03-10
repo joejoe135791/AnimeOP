@@ -35,7 +35,7 @@
       "value": "CUSTOM:Kunai"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "",
+    "customBulletModelTexture": "kunai_texture.png",
     "onBulletHitsBlock": {
       "name": "KunaiProjectileHitsBlock"
     }

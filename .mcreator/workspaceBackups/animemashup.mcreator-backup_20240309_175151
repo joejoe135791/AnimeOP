@@ -1,0 +1,965 @@
+{
+  "mod_elements": [
+    {
+      "name": "Menunaru",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menunaru",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/client/gui/MenunaruScreen.java",
+          "src/main/java/net/mcreator/animemashup/world/inventory/MenunaruMenu.java"
+        ]
+      },
+      "path": "~/menus"
+    },
+    {
+      "name": "Dupe",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/world/inventory/DupeMenu.java",
+          "src/main/java/net/mcreator/animemashup/client/gui/DupeScreen.java"
+        ]
+      },
+      "path": "~/menus"
+    },
+    {
+      "name": "Naruto",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/animes/naruto"
+    },
+    {
+      "name": "KunaiRangedItemUsed",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/KunaiRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kunai"
+    },
+    {
+      "name": "KunaiRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/kunai_recipe.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kunai"
+    },
+    {
+      "name": "KunaiProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/KunaiProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kunai"
+    },
+    {
+      "name": "ChakraniteOreSmelting",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/chakranite_ore_smelting.json"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite/recipes"
+    },
+    {
+      "name": "Chakranite",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_chakranite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/ChakraniteItem.java",
+          "src/main/resources/assets/animemashup/models/item/raw_chakranite.json"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite"
+    },
+    {
+      "name": "ChakraniteOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/forge/biome_modifier/chakranite_ore_biome_modifier.json",
+          "src/main/resources/assets/animemashup/models/item/chakranite_ore.json",
+          "src/main/resources/assets/animemashup/blockstates/chakranite_ore.json",
+          "src/main/java/net/mcreator/animemashup/world/features/ores/ChakraniteOreFeature.java",
+          "src/main/java/net/mcreator/animemashup/block/ChakraniteOreBlock.java",
+          "src/main/resources/assets/animemashup/models/block/chakranite_ore.json"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite"
+    },
+    {
+      "name": "ChakraniteIngot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/chakranite_ingot.json",
+          "src/main/java/net/mcreator/animemashup/item/ChakraniteIngotItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite"
+    },
+    {
+      "name": "ChakraniteNugget",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/chakranite_nugget.json",
+          "src/main/java/net/mcreator/animemashup/item/ChakraniteNuggetItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite"
+    },
+    {
+      "name": "ChakraniteNuggetRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/chakranite_nugget_recipe.json"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite/recipes"
+    },
+    {
+      "name": "ChakraniteOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chakranite_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/loot_tables/blocks/chakranite_ore.json"
+        ]
+      },
+      "path": "~/animes/naruto/Chakranite"
+    },
+    {
+      "name": "Kubikiribocho",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubikiribocho",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/KubikiribochoItem.java",
+          "src/main/resources/assets/animemashup/models/item/kubikiribocho.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/BEEGSWORD"
+    },
+    {
+      "name": "KubikiribochoRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubikiribocho_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/kubikiribocho_recipe.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/BEEGSWORD"
+    },
+    {
+      "name": "Unobtainableheadband",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtainableheadband",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/UnobtainableheadbandItem.java",
+          "src/main/resources/assets/animemashup/models/item/unobtainableheadband.json"
+        ]
+      },
+      "path": "~/animes/naruto/headband/UnobtainableHeadband"
+    },
+    {
+      "name": "Fireball",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/FireballProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/animes/naruto/chakra natures/jutsu/fire/fireball"
+    },
+    {
+      "name": "TestFireball",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_fireball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/command/TestFireballCommand.java"
+        ]
+      },
+      "path": "~/animes/naruto/chakra natures/jutsu/fire/fireball"
+    },
+    {
+      "name": "LaunchFireball",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_fireball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/network/LaunchFireballMessage.java"
+        ]
+      },
+      "path": "~/animes/naruto/chakra natures/jutsu/fire/fireball"
+    },
+    {
+      "name": "Headband",
+      "type": "curiosbauble",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headband",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/HeadbandItem.java",
+          "src/main/resources/assets/animemashup/models/item/headband.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/HeadbandRenderer.java"
+        ]
+      },
+      "path": "~/animes/naruto/headband"
+    },
+    {
+      "name": "PurpleKusanagiBauble",
+      "type": "curiosbauble",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kusanagi_bauble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/purple_kusanagi_bauble.json",
+          "src/main/java/net/mcreator/animemashup/client/renderer/PurpleKusanagiBaubleRenderer.java",
+          "src/main/java/net/mcreator/animemashup/item/PurpleKusanagiBaubleItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/WeaponBauble"
+    },
+    {
+      "name": "Ears",
+      "type": "curiosbauble",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/EarsItem.java",
+          "src/main/resources/assets/animemashup/models/item/ears.json"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Joejoe"
+    },
+    {
+      "name": "DevItems",
+      "type": "tab",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shared items/Developer Items"
+    },
+    {
+      "name": "Michiru",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "michiru",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/michiru_helmet.json",
+          "src/main/resources/assets/animemashup/models/item/michiru_chestplate.json",
+          "src/main/java/net/mcreator/animemashup/item/MichiruItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Joejoe"
+    },
+    {
+      "name": "Demonslayer",
+      "type": "tab",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonslayer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/animes/demonSlayer"
+    },
+    {
+      "name": "DefaultNichirin",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_nichirin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/DefaultNichirinItem.java",
+          "src/main/resources/assets/animemashup/models/item/default_nichirin.json"
+        ]
+      },
+      "path": "~/animes/demonSlayer/swords/nichirin"
+    },
+    {
+      "name": "DeathrayDEVITEM",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathray_devitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/deathray_devitem.json",
+          "src/main/java/net/mcreator/animemashup/item/DeathrayDEVITEMItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Development Tools"
+    },
+    {
+      "name": "Uchihakusanagi",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchihakusanagi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/uchihakusanagi.json",
+          "src/main/java/net/mcreator/animemashup/item/UchihakusanagiItem.java"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kusanagi/uchiha"
+    },
+    {
+      "name": "Uchihakusanagirecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchihakusanagirecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/uchihakusanagirecipe.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kusanagi/uchiha"
+    },
+    {
+      "name": "SharedItems",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shared_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shared items"
+    },
+    {
+      "name": "Wrappings",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrappings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/item/WrappingsItem.java",
+          "src/main/resources/assets/animemashup/models/item/wrappings.json"
+        ]
+      },
+      "path": "~/shared items/wraps"
+    },
+    {
+      "name": "WrapCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrap_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/wrap.json"
+        ]
+      },
+      "path": "~/shared items/wraps"
+    },
+    {
+      "name": "Uchihakusanagirecipe2",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uchihakusanagirecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/uchihakusanagirecipe_2.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kusanagi/uchiha"
+    },
+    {
+      "name": "Kunai",
+      "type": "rangeditem",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/entity/KunaiEntity.java",
+          "src/main/java/net/mcreator/animemashup/item/KunaiItem.java",
+          "src/main/resources/assets/animemashup/models/item/kunai.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/kunai"
+    },
+    {
+      "name": "PlayerFirstJoin",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_first_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/PlayerFirstJoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/shared items/procedures"
+    },
+    {
+      "name": "ResetFirstJoin",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_first_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/ResetFirstJoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/shared items/Developer Items/procedures"
+    },
+    {
+      "name": "FirstJoinReset",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_join_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/first_join_reset.json",
+          "src/main/java/net/mcreator/animemashup/item/FirstJoinResetItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Development Tools"
+    },
+    {
+      "name": "Shuriken",
+      "type": "rangeditem",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuriken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/entity/ShurikenEntity.java",
+          "src/main/java/net/mcreator/animemashup/item/ShurikenItem.java",
+          "src/main/resources/assets/animemashup/models/item/shuriken.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/shuriken"
+    },
+    {
+      "name": "ShurikenRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuriken_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/animemashup/recipes/shuriken_recipe.json"
+        ]
+      },
+      "path": "~/animes/naruto/weapons/shuriken"
+    },
+    {
+      "name": "DeveloperExplosion",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/DeveloperExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/shared items/Developer Items/procedures"
+    },
+    {
+      "name": "MassiveExplosion",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "massive_explosion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/animemashup/models/item/massive_explosion.json",
+          "src/main/java/net/mcreator/animemashup/item/MassiveExplosionItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items/Development Tools"
+    },
+    {
+      "name": "MassiveDeveloperExplosion",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "massive_developer_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/MassiveDeveloperExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/shared items/Developer Items/procedures"
+    },
+    {
+      "name": "DeveloperExuhplosiooon",
+      "type": "rangeditem",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_exuhplosiooon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/entity/DeveloperExuhplosiooonEntity.java",
+          "src/main/resources/assets/animemashup/models/item/developer_exuhplosiooon.json",
+          "src/main/java/net/mcreator/animemashup/item/DeveloperExuhplosiooonItem.java"
+        ]
+      },
+      "path": "~/shared items/Developer Items/procedures"
+    },
+    {
+      "name": "DeveloperFireballToExplosion",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_fireball_to_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/animemashup/procedures/DeveloperFireballToExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/shared items/Developer Items/procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.animemashup.chakranite_ore": "Chakranite Ore",
+      "item.animemashup.wrappings": "Wrappings",
+      "item.animemashup.michiru_chestplate": "Michiru\u0027s Sweatjacket",
+      "item.animemashup.ears": "Ears",
+      "item.animemashup.chakranite_nugget": "Chakranite Nugget",
+      "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
+      "gui.animemashup.menunaru.button_select_anime": "select anime",
+      "item.animemashup.developer_exuhplosiooon": "Developer Exuhplosiooon",
+      "item.animemashup.default_nichirin": "Nichirin",
+      "item.animemashup.unobtainableheadband": "Unobtainableheadband",
+      "item.animemashup.shuriken": "Shuriken",
+      "item.animemashup.michiru_helmet": "Michiru\u0027s hood",
+      "item.animemashup.kunai": "Kunai",
+      "item.animemashup.deathray_devitem": "Deathray ",
+      "itemGroup.tabdemonslayer": "Demon Slayer",
+      "itemGroup.tabshared_items": "Shared Items",
+      "item.animemashup.kubikiribocho": "Kubikiribocho",
+      "gui.animemashup.dupe.label_test": "Test",
+      "item.animemashup.raw_chakranite": "Raw Chakranite",
+      "itemGroup.tabnaruto": "Naruto",
+      "item.animemashup.chakranite_ingot": "Chakranite Ingot",
+      "itemGroup.tabdev_items": "Dev Items",
+      "item.animemashup.first_join_reset": "First Join Reset",
+      "key.animemashup.launch_fireball": "Launch Fireball",
+      "item.animemashup.headband": "Headband",
+      "item.animemashup.uchihakusanagi": "Uchiha Kusanagi",
+      "item.animemashup.massive_explosion": "Kaboom test"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "menus",
+        "children": []
+      },
+      {
+        "name": "animes",
+        "children": [
+          {
+            "name": "naruto",
+            "children": [
+              {
+                "name": "headband",
+                "children": [
+                  {
+                    "name": "UnobtainableHeadband",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Chakranite",
+                "children": [
+                  {
+                    "name": "recipes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "weapons",
+                "children": [
+                  {
+                    "name": "kunai",
+                    "children": []
+                  },
+                  {
+                    "name": "kusanagi",
+                    "children": [
+                      {
+                        "name": "uchiha",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "BEEGSWORD",
+                    "children": []
+                  },
+                  {
+                    "name": "shuriken",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "chakra natures",
+                "children": [
+                  {
+                    "name": "jutsu",
+                    "children": [
+                      {
+                        "name": "fire",
+                        "children": [
+                          {
+                            "name": "fireball",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "fire",
+                    "children": []
+                  },
+                  {
+                    "name": "water",
+                    "children": []
+                  },
+                  {
+                    "name": "earth",
+                    "children": []
+                  },
+                  {
+                    "name": "wind",
+                    "children": []
+                  },
+                  {
+                    "name": "lightning",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "NPCs",
+                "children": []
+              },
+              {
+                "name": "WeaponBauble",
+                "children": []
+              },
+              {
+                "name": "Structures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "toaru",
+            "children": []
+          },
+          {
+            "name": "slime",
+            "children": []
+          },
+          {
+            "name": "demonSlayer",
+            "children": [
+              {
+                "name": "swords",
+                "children": [
+                  {
+                    "name": "nichirin",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MHA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "shared items",
+        "children": [
+          {
+            "name": "Developer Items",
+            "children": [
+              {
+                "name": "harumi",
+                "children": []
+              },
+              {
+                "name": "Joejoe",
+                "children": []
+              },
+              {
+                "name": "Development Tools",
+                "children": []
+              },
+              {
+                "name": "procedures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "food",
+            "children": []
+          },
+          {
+            "name": "wraps",
+            "children": []
+          },
+          {
+            "name": "procedures",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "animemashup",
+    "modName": "animemashup",
+    "version": "0.0.5",
+    "author": "joejoeVT,  Harumi",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.animemashup",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

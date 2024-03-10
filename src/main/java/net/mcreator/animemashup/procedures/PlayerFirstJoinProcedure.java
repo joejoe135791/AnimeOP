@@ -31,10 +31,10 @@ public class PlayerFirstJoinProcedure {
 			entity.getPersistentData().putBoolean("FirstJoin", true);
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("first join setup complete"), true);
-			AnimemashupMod.LOGGER.info(("Player" + " " + entity + " " + "Has joined for the first time!"));
+			AnimemashupMod.LOGGER.info(("Player" + "\"" + " " + entity.getDisplayName().getString() + "\"" + " " + "Has joined for the first time!"));
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("Welcome back!"), true);
+				_player.displayClientMessage(Component.literal(("Welcome back" + " " + entity.getDisplayName().getString() + "!")), true);
 		}
 	}
 }

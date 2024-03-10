@@ -4,7 +4,6 @@
   "loader": "forge:obj",
   "model": "animemashup:models/item/nichirinsword.obj",
   "textures": {
-    "m_f0aacf38-8b65-4011-aff9-d5f69db5c8ec": "animemashup:blocks/",
     "particle": "animemashup:items/nicirinswordtexture"
   }
 }

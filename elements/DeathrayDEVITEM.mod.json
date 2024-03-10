@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "hq5g19rf68i51",
     "customModelName": "Normal",
-    "name": "Deathray DEVITEM",
+    "name": "Deathray ",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:DevItems"
@@ -32,7 +32,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "Adminexplosion"
+      "name": "DeveloperExplosion"
     },
     "isFood": false,
     "nutritionalValue": 4,

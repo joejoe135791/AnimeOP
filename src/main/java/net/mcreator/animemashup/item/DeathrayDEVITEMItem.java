@@ -12,7 +12,7 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.animemashup.procedures.AdminexplosionProcedure;
+import net.mcreator.animemashup.procedures.DeveloperExplosionProcedure;
 import net.mcreator.animemashup.init.AnimemashupModTabs;
 
 import java.util.List;
@@ -41,7 +41,7 @@ public class DeathrayDEVITEMItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		AdminexplosionProcedure.execute(entity);
+		DeveloperExplosionProcedure.execute(entity);
 		return ar;
 	}
 }

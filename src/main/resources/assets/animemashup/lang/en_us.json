@@ -6,11 +6,13 @@
   "item.animemashup.chakranite_nugget": "Chakranite Nugget",
   "item.animemashup.purple_kusanagi_bauble": "Purple Kusanagi Bauble",
   "gui.animemashup.menunaru.button_select_anime": "select anime",
+  "item.animemashup.developer_exuhplosiooon": "Developer Exuhplosiooon",
   "item.animemashup.default_nichirin": "Nichirin",
   "item.animemashup.unobtainableheadband": "Unobtainableheadband",
+  "item.animemashup.shuriken": "Shuriken",
   "item.animemashup.michiru_helmet": "Michiru\u0027s hood",
   "item.animemashup.kunai": "Kunai",
-  "item.animemashup.deathray_devitem": "Deathray DEVITEM",
+  "item.animemashup.deathray_devitem": "Deathray ",
   "itemGroup.tabdemonslayer": "Demon Slayer",
   "itemGroup.tabshared_items": "Shared Items",
   "item.animemashup.kubikiribocho": "Kubikiribocho",
@@ -22,5 +24,6 @@
   "item.animemashup.first_join_reset": "First Join Reset",
   "key.animemashup.launch_fireball": "Launch Fireball",
   "item.animemashup.headband": "Headband",
-  "item.animemashup.uchihakusanagi": "Uchiha Kusanagi"
+  "item.animemashup.uchihakusanagi": "Uchiha Kusanagi",
+  "item.animemashup.massive_explosion": "Kaboom test"
 }

@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "shuriken_texture",
+    "customModelName": "shuriken:default",
+    "name": "Shuriken",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Naruto"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": "CUSTOM:Shuriken"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.2000000000000002,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Shuriken"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "shuriken_texture.png"
+  }
+}

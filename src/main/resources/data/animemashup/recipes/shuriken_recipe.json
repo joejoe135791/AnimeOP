@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "animemashup:chakranite_nugget"
+    },
+    "1": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "2": {
+      "item": "animemashup:chakranite_nugget"
+    },
+    "3": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "5": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "6": {
+      "item": "animemashup:chakranite_nugget"
+    },
+    "7": {
+      "item": "animemashup:chakranite_ingot"
+    },
+    "8": {
+      "item": "animemashup:chakranite_nugget"
+    }
+  },
+  "result": {
+    "item": "animemashup:shuriken",
+    "count": 8
+  }
+}
